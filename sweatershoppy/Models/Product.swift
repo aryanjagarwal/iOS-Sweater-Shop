@@ -13,3 +13,12 @@ struct Product: Identifiable {
     var image: String
     var price: Int
 }
+
+var productList = [Product(name: "White sweater", image: "sweater1", price: 84),
+                   Product(name: "Olive sweater", image: "sweater2", price: 94),
+                   Product(name: "Colorful sweater", image: "sweater3", price: 59),
+                   Product(name: "Red sweater", image: "sweater4", price: 62),
+                   Product(name: "Olivelike sweater", image: "sweater5", price: 74),
+                   Product(name: "Green sweater", image: "sweater6", price: 54),
+                   Product(name: "Offwhite sweater", image: "sweater7", price: 89),
+                   Product(name: "Kinda sweater", image: "sweater8", price: 50)]
