@@ -9,7 +9,11 @@ import SwiftUI
 
 struct CartView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Text("Your cart is empty")
+        }
+        .navigationTitle(Text("My Cart"))
+        .padding(.top)
     }
 }
 
